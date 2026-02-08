@@ -1,0 +1,8 @@
+.IndustryBiscuit
+./IndustryBiscuit
+.venv
+./venv
+
+__pycache__
+*.pyc
+.IndustryBiscuit
