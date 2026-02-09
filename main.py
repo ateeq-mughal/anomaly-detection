@@ -186,7 +186,3 @@ async def predict_image_endpoint(file: UploadFile = File(...)):
         "is_defective": label != "Defect_No"
     }
 
-if __name__ == "__main__":
-    import uvicorn
-    # Run the app
-    uvicorn.run(app, host="0.0.0.0", port=8000)
